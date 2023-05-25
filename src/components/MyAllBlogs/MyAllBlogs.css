@@ -1,0 +1,93 @@
+.myAllBlogs {
+  /* height: 100vh;
+  background-color: #f5fafc; */
+}
+.innerClass {
+  display: flex;
+  padding-top: 4rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5fafc;
+  border-top-right-radius: 40px;
+}
+.Blogs__Header {
+  background: rgba(3, 47, 65, 0.35);
+  box-shadow: 0 0 16px 0 hsla(0, 92%, 10%, 0.25);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  color: whitesmoke;
+  padding: 0.5rem;
+  border-top-right-radius: 40px;
+  position: sticky;
+  z-index: 5 !important;
+}
+.myBlogsBody {
+  margin: 1rem;
+  display: flex;
+  justify-content: space-around;
+}
+.allBlogCard2 {
+  background-color: rgb(248, 238, 247);
+  width: 80%;
+  margin: 1.5rem;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+    rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  cursor: pointer;
+  border-top-right-radius: 40px;
+  background: rgba(182, 164, 164, 0.15);
+}
+.createNew {
+  background-color: #02424b;
+  color: white;
+  outline: none;
+  border: none;
+  padding: 1rem;
+  font-family: "Quicksand", sans-serif;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 2rem 0;
+}
+.createNew:hover {
+  background-color: #066572;
+}
+.blogIcon {
+  display: flex;
+  flex-direction: column;
+}
+.editIcon,
+.delIcon {
+  font-size: 2.5rem;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  color: #02424b;
+}
+.editIcon:hover,
+.delIcon:hover {
+  background: rgb(2, 66, 75, 0.25);
+  box-shadow: 0 8px 32px 0 hsla(0, 92%, 10%, 0.25);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 50px;
+  color: white;
+}
+.card__content{
+  z-index: 2;
+}
+.bgphoto{
+  height: 3rem;
+}
+.my__card a{
+  text-decoration: none;
+  color: blue;
+}
+@media (max-width: 767px) {
+  .editIcon,
+.delIcon{
+  font-size: 2rem;
+}
+.Blogs__Header{
+  z-index: 5;
+}
+}

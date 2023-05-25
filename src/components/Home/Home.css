@@ -1,0 +1,21 @@
+.home__container{
+  margin-top: 5rem;
+}
+.home__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+}
+.home__grid a{
+  text-decoration: none;
+}
+.home__content{
+  color: blue;
+}
+.home__card {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+/* Add any additional styling for the card elements */

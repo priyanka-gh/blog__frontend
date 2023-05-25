@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Rampart+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap");
+/* font-family: "Roboto Condensed", sans-serif; */
+
+.detContent{
+  background-color: antiquewhite;
+}
+.likeIcon {
+  font-size: 2rem;
+  margin-right: 1rem;
+  color: white;
+}
+.likeIcon::after {
+  color: red;
+}
+.spanLike {
+  margin: 1rem;
+}
+.detTwo{
+  display: flex;
+  flex-direction: column;
+  color: rgb(113, 109, 105);
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.insideDetailsCard{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 6rem;
+}
+.comment{
+  background-color: antiquewhite;
+  padding: 0.5rem;
+  margin: 1rem;
+
+}
+
+.btn{
+  background-color: rgb(218, 206, 191);
+  outline: none;
+  border: none;
+  padding: 0.5rem;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.detContent{
+  margin: 1rem;
+  padding: 0.5rem;
+}
+.inpComment:focus{
+outline: none;
+color: rgb(138, 135, 132);
+}
+
+@media(min-width: 767px){
+  .insideDetailsCard{
+    display: flex;
+    flex-direction: row;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    align-items: flex-start;
+  }
+  .detOne{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .detTwo{
+    display: flex;
+    flex-direction: column;
+  }
+}
