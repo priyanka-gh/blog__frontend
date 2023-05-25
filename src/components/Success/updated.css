@@ -17,6 +17,7 @@
 .posted {
   height: 100vh;
   display: flex;
+  flex-direction: column;
   background-color: #e8f5f8;
   justify-content: center;
   align-items: center;
